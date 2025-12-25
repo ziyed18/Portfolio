@@ -112,7 +112,7 @@ function checkPassword() {
         document.body.style.overflow = "auto";
         
         // link CV
-        window.location.href = "https://drive.google.com/drive/folders/1XJeDu3PeP-EGn45cd4HcjqLRSouWN47B?usp=sharing";
+                window.open("https://drive.google.com/drive/folders/1XJeDu3PeP-EGn45cd4HcjqLRSouWN47B?usp=sharing", "_blank", "noopener,noreferrer");
     } else {
         alert("Invalid access code. Please try again or request access.");
         document.getElementById("cvPassword").value = "";
