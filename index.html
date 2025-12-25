@@ -85,14 +85,17 @@
         <span class="close" id="closeRequest">&times;</span>
 
         <h3>Request CV Access</h3>
-
-        <form action="mailto:ziyed.18.tn@gmail.com" method="post" enctype="text/plain">
+        <form action="https://formspree.io/f/xvzopzzq" method="POST">
         <input type="text" name="Name" placeholder="Your name" required>
         <input type="email" name="Email" placeholder="Your email" required>
         <textarea name="Message" placeholder="Reason for request" required></textarea>
-
+        <input type="hidden" name="_subject" value="New CV Access Request from Portfolio">
         <button type="submit" class="btn">Send Request</button>
+
         </form>
+        <div id="form-success" style="display: none; color: green; margin-top: 15px;">
+            ✅ Thank you! Your request has been sent.
+        </div>
     </div>
     </div>
 </body>
